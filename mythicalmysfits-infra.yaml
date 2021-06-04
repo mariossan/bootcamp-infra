@@ -139,3 +139,5 @@ Resources:
           PropagateAtLaunch: True
 Outputs:
   LoadBalancerDNS:
+    Description: DNS del Load Balancer
+    Value: !GetAtt LoadBalancer.DNSName
